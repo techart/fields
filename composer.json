@@ -1,0 +1,22 @@
+{
+    "name": "techart/fields",
+    "description": "Филды",
+    "version" : "3.0.2",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Techart",
+            "homepage": "http://web-techart.ru/"
+        }
+    ],
+    "autoload" : {
+        "psr-4": {
+            "Techart\\Fields\\": "src/Fields"
+        },
+        "classmap": ["src/Fields.php"]
+    },
+    "require": {
+        "PHP": ">=5.5",
+        "techart/db": ">=3.0"
+    }
+}
